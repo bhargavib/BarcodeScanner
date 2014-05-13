@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="BarcodeScanDemo" name="BarcodeScanDemo">
+    <container displayname="Form" id="frmHome" type="form"/>
+    <container displayname="Form" id="frmScndCntnt" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
