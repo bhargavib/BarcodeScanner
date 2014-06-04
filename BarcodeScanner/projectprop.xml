@@ -80,6 +80,7 @@
     <attributes name="pathkey" value=""/>
     <attributes name="tcandroid400basefontsize" value="14"/>
     <attributes name="use_camera" value="false"/>
+    <attributes name="tabletstartupformkey" value="frmHome"/>
     <attributes name="CHANGE_WIFI_STATE" value="false"/>
     <attributes name="androidscreennormal" value="true"/>
     <attributes name="WP8_ID_CAP_SENSORS" value="true"/>
@@ -99,7 +100,7 @@
     <attributes name="bbserviceidentifierpattern" value=""/>
     <attributes name="ID_REQ_MAGNETOMETER" value="false"/>
     <attributes name="FACTORY_TEST" value="false"/>
-    <attributes name="splashlogokey" value="0=,1=iphone_5.png,8=iphone_5.png,2=,46=,42=,3=,16=,18=,43=,1000=,1001=,1002=,31=,32=,45=,22=,23=,24=,35=,44=,36=,21=,37="/>
+    <attributes name="splashlogokey" value="0=,1=iphone_5.png,8=iphone_5.png,2=,46=,42=,3=,16=ipad_4_potrait.png,18=andriod_tablet_potratit.png,43=,1000=,1001=surface_tablet_potrait.png,1002=,31=,32=,45=,22=,23=,24=,35=,44=,36=,21=,37="/>
     <attributes name="SEND_SMS" value="false"/>
     <attributes name="iphonebundleidentifierkey" value="com.kone.BarcodeScanDe"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>

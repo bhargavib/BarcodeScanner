@@ -8,7 +8,10 @@ function scanVINBarcode()
 	}else if(kony.string.startsWith(PlatformName, "iphone", true) == true||kony.string.startsWith(PlatformName, "ipad", true) == true)
 	{
 		jsBarCodeiPhone();
-	}
+	}else if(kony.os.deviceInfo().name=="WindowsPhone")
+			{
+				jsBarCodeWindows();
+			}
 	else{
 		kony.print("This platform is not supported");
 	}
@@ -26,9 +29,6 @@ function jsBarCodeAndroid(  ){
 
 function onBarcodeScan(a, b){
 	kony.print("\n\n:--in onBarcodeScan-->\n");
-	//kony.print("value of scanned data-----"+b);
-	//kony.print("a=" + a);
-	//kony.print("b=" + b);
 	kony.print("value of scanned data for Android-----"+b);
 	gScannedText = b;
 	if (gScannedText == "" || gScannedText == null)
@@ -72,3 +72,18 @@ function jsBarCodeiPhone(dummy){
 		frmScndCntnt.show();
 	}
 }
+
+/** 
+ * 
+ * ============== Windows Barcode Scanner ===========================
+ * 
+ */
+ 
+ function jsBarCodeWindows()
+ {
+ 	
+ 	gScannedText = scanbarcodeffi.getBarCodeWindows();
+ 	alert(gScannedText);
+ 	alert("hello");
+ }
+ 
