@@ -10,3 +10,7 @@ This app showcases the Barcode scanning using Zxing thirdparty libs for scanning
 **Mobile**
  * iPhone
  * android
+
+**Tablet**
+ * Android Tab
+ 
