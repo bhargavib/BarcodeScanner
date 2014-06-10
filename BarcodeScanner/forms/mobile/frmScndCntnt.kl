@@ -22,7 +22,7 @@
         <width>true</width>
         <height>false</height>
     </overridePerferred>
-    <projectName>BarcodeScanDemo</projectName>
+    <projectName>BarcodeScanner</projectName>
     <formName>frmScndCntnt</formName>
     <platform>0</platform>
     <mode>0</mode>
